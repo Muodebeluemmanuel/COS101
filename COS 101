@@ -1,0 +1,31 @@
+
+def calculate_force():
+    mass=int(input('mass'))
+    acceleration=int(input('acceleration'))
+    force=mass*acceleration
+
+    print('force is',force)
+calculate_force
+
+
+def calculate_speed():
+    distance=int(input('distance'))
+    time=float(input('time'))
+    speed=distance/time
+
+    print('speed is ',speed)
+calculate_speed
+
+
+def calculate_work():
+    force=int(input('force'))
+    distance=float(input('distance'))
+    work=force*distance
+
+    print('work is',work)
+calculate_work
+
+
+def calculate_potential_energy():
+    mass=int(input('mass'))
+    acceleration_due_to_gravity=float(input())
